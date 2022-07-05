@@ -1,13 +1,9 @@
 package com.example.restrauntsearch.data
 
+
 data class Restaurant(
-    val address: String,
-    val cuisine_type: String,
     val id: Int,
-    val latlng: Latlng,
+    val cuisine_type: String,
     val name: String,
-    val neighborhood: String,
-    val operating_hours: OperatingHours,
     val photograph: String,
-    val reviews: List<Review>
 )

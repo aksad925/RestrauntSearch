@@ -10,7 +10,7 @@
         "lat": 40.713829,
         "lng": -73.989667
       },
-      "cuisine_type": "Asian, Chinese",
+      "cuisine_type": "Asian,Chinese",
       "operating_hours": {
         "Monday": "5:30 pm - 11:00 pm",
         "Tuesday": "5:30 pm - 12:00 am",
@@ -51,7 +51,7 @@
         "lat": 40.683555,
         "lng": -73.966393
       },
-      "cuisine_type": "Pizza, American",
+      "cuisine_type": "Pizza,American",
       "operating_hours": {
         "Monday": "5:30 pm - 11:00 pm",
         "Tuesday": "5:30 pm - 11:00 pm",

@@ -5,16 +5,20 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.SearchView
 import android.widget.TextView
 import androidx.appcompat.view.menu.ActionMenuItemView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
+import com.example.restrauntsearch.MainActivity
 import com.example.restrauntsearch.R
 import com.example.restrauntsearch.data.Restaurant
+import com.example.restrauntsearch.viewmodel.MainViewModel
 import org.w3c.dom.Text
 
-class RecyclerAdapter(private val restaruntList: List<Restaurant>, private val context: Context) :
+class RecyclerAdapter(private val restaruntList: ArrayList<Restaurant>, private val context: MainActivity) :
     RecyclerView.Adapter<RecyclerAdapter.ItemHolder>() {
+
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemHolder {
